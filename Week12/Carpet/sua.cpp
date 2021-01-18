@@ -6,7 +6,7 @@ using namespace std;
 vector<int> solution(int brown, int yellow) {
 	vector<int> answer;
 
-	for (int i = 1; i < yellow; i++) {
+	for (int i = 1; i < yellow+1; i++) {
 		if (yellow%i != 0)
 			continue;
 		if (i * 2 + yellow/i * 2 + 4 == brown) {
