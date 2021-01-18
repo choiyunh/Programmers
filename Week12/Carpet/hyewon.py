@@ -1,4 +1,3 @@
-from itertools import combinations
 def solution(brown, yellow):
     answer = []
     out = 0
@@ -17,7 +16,3 @@ def solution(brown, yellow):
 
 
     return answer
-
-print(solution(10, 2))
-print(solution(8, 1))
-print(solution(24, 24))
